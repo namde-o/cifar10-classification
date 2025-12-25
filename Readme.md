@@ -4,7 +4,7 @@
 [![TensorFlow 2.15](https://img.shields.io/badge/TensorFlow-2.15-FF6F00.svg)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A production-ready deep learning pipeline for multi-class image classification on the CIFAR-10 dataset, achieving **[YOUR ACCURACY]%** test accuracy through convolutional neural networks with batch normalization and data augmentation.
+A production-ready deep learning pipeline for multi-class image classification on the CIFAR-10 dataset, achieving **65%** test accuracy through convolutional neural networks with batch normalization and data augmentation.
 
 ## 🎯 Project Overview
 
@@ -26,6 +26,12 @@ This project implements an end-to-end image classification system that:
 | **Parameters** | ~350K |
 | **Training Time** | ~[XX] minutes (GPU) |
 | **Model Size** | [X.X] MB |
+
+| Model | Accuracy | Params |
+|------|----------|--------|
+| Custom CNN | 65.3% | 350K |
+| ResNet18 | 82.1% | 11M |
+
 
 ### Sample Predictions
 ![Sample Predictions](results/sample_predictions.png)
@@ -172,7 +178,7 @@ image-classification-cifar10/
 ## 📈 Performance Analysis
 
 ### Per-Class Accuracy
-[Insert table from your results]
+
 
 ### Common Misclassifications
 1. **Cat ↔ Dog**: Similar fur textures and poses
@@ -265,10 +271,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**[Your Name]**
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
-- Portfolio: [Your Portfolio Website]
+**Suyash Namdeo Sonawane**
+- LinkedIn: (https://www.linkedin.com/in/suyash-sonawane-54b385310/)
+- Email: suyashsonawane65@gmail.com
 
 ---
 
