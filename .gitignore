@@ -1,11 +1,8 @@
-# Python
 venv/
 __pycache__/
 *.pyc
-
-# Jupyter
+.DS_Store
 .ipynb_checkpoints/
 
-# OS junk
-.DS_Store
+
 
